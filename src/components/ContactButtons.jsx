@@ -45,7 +45,7 @@ export function ServiceCards({ kakao }) {
       >
         <div className="flex flex-col">
           <span className="font-semibold text-blue-800">🔧 CCTV·방송음향 시공 문의</span>
-          <span className="text-sm text-gray-500 mt-1">현장 기준으로 진단하고 견적드립니다</span>
+          <span className="text-sm text-gray-500 mt-1">현장 기준으로 진단하고 문제 해결해드립니다</span>
           <span className="mt-2 text-sm font-bold text-blue-600">무료 현장 견적 받아보세요</span>
         </div>
         <ChevronRight size={22} className="text-blue-400 shrink-0 ml-3" />
