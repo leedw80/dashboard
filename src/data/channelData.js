@@ -1,7 +1,7 @@
 export const profile = {
   name: "CCTV 아빠",
   bio: "CCTV·방송음향 기사 🎥 영상은 다 AI로 직접 제작 현장 이야기 + 클로드 코드 활용 | 제작·시공",
-  photo: "/profile.png",
+  photo: "/profile.jpg",
 }
 
 export const categories = [
