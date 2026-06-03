@@ -8,10 +8,10 @@ export default function App() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-2xl mx-auto px-6 space-y-8">
         <ProfileHeader {...profile} />
+        <ContactButtons {...contact} />
         {categories.map((cat) => (
           <ChannelSection key={cat.title} {...cat} />
         ))}
-        <ContactButtons {...contact} />
       </div>
     </div>
   )

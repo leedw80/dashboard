@@ -9,29 +9,29 @@ export const categories = [
     title: "SNS",
     icon: "📱",
     channels: [
-      { name: "TikTok",    url: "https://tiktok.com/@leedw80",   color: "#000000" },
-      { name: "YouTube",   url: "https://youtube.com/@...",  color: "#FF0000" },
-      { name: "Instagram", url: "https://instagram.com/...", color: "#E1306C" },
-      { name: "Facebook",  url: "https://facebook.com/...",  color: "#1877F2" },
-      { name: "Threads",   url: "https://threads.net/@...",  color: "#000000" },
+      { name: "TikTok",     url: "https://www.tiktok.com/@leedw80",          color: "#000000" },
+      { name: "YouTube",    url: "https://www.youtube.com/@leedw80",         color: "#FF0000" },
+      { name: "Instagram",  url: "https://www.instagram.com/lee_dw80",       color: "#E1306C" },
+      { name: "Facebook",   url: "https://www.facebook.com/share/14erNsLh4Py/", color: "#1877F2" },
+      { name: "Threads",    url: "https://www.threads.com/@lee_dw80",        color: "#000000" },
+      { name: "네이버 클립", url: "https://clip.naver.com/@lee_dw80",        color: "#03C75A" },
     ],
   },
   {
     title: "블로그·커뮤니티",
     icon: "📝",
     channels: [
-      { name: "네이버 블로그", url: "https://blog.naver.com/...",  color: "#03C75A" },
-      { name: "네이버 카페",   url: "https://cafe.naver.com/...",  color: "#03C75A" },
-      { name: "네이버 클립",   url: "https://clip.naver.com/...", color: "#03C75A" },
-      { name: "티스토리",      url: "https://example.tistory.com", color: "#FF6600" },
+      { name: "네이버 블로그", url: "https://blog.naver.com/leedw80", color: "#03C75A" },
+      { name: "티스토리",     url: "https://dw80.tistory.com/",   color: "#FF6600" },
     ],
   },
   {
     title: "지역·생활",
     icon: "📍",
     channels: [
-      { name: "당근마켓", url: "https://www.daangn.com/...", color: "#FF6F0F" },
-      { name: "카카오맵", url: "https://map.kakao.com/...",  color: "#FAE100" },
+      { name: "당근마켓", url: "https://www.daangn.com/kr/local-profile/4ims9dv1hkfs/?referrer=share", color: "#FF6F0F" },
+      { name: "네이버지도", url: "https://naver.me/GUDeLP46", color: "#03C75A" },
+      { name: "카카오맵", url: "https://place.map.kakao.com/10035258?fromAppLink=true",  color: "#FAE100" },
     ],
   },
   {
@@ -44,6 +44,7 @@ export const categories = [
 ]
 
 export const contact = {
-  kakao: "https://open.kakao.com/...",
-  email: "이메일주소@example.com",
+  phone: "01085853508",
+  kakao: "https://pf.kakao.com/_fHbxoxj",
+  email: "leedw80@naver.com",
 }
