@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, Mail } from 'lucide-react'
+import { Phone, Mail } from 'lucide-react'
 
 export default function ContactButtons({ phone, kakao, email }) {
   return (
@@ -23,22 +23,15 @@ export default function ContactButtons({ phone, kakao, email }) {
         href={kakao}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-medium py-3 rounded-lg transition-colors"
-      >
-        <MessageCircle size={18} />
-        카카오톡 문의
-      </a>
-      <a
-        href={kakao}
-        target="_blank"
-        rel="noopener noreferrer"
         className="flex flex-col px-5 py-4 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
       >
         <span className="font-semibold text-gray-800">📩 콘텐츠 제작 문의</span>
         <span className="text-sm text-gray-500 mt-1">홍보 영상·카드뉴스, AI로 빠르게 만들어드려요</span>
       </a>
       <a
-        href={`tel:${phone}`}
+        href={kakao}
+        target="_blank"
+        rel="noopener noreferrer"
         className="flex flex-col px-5 py-4 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
       >
         <span className="font-semibold text-gray-800">🔧 CCTV·방송음향 시공 문의</span>
