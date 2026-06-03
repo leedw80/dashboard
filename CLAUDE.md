@@ -1,5 +1,7 @@
 # Dashboard
 
+> 모든 명령어는 `dashboard/` 디렉토리 안에서 실행
+
 ## Stack
 Vite + React 19 + Tailwind CSS v4 + Recharts + lucide-react
 
