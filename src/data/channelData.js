@@ -1,7 +1,7 @@
 export const profile = {
-  name: "이름",
-  bio: "한 줄 소개",
-  photo: "/profile.jpg",
+  name: "CCTV 아빠",
+  bio: "CCTV·방송음향 기사 🎥 영상은 다 AI로 직접 제작 현장 이야기 + 클로드 코드 활용 | 제작·시공",
+  photo: "/profile.png",
 }
 
 export const categories = [
@@ -9,7 +9,7 @@ export const categories = [
     title: "SNS",
     icon: "📱",
     channels: [
-      { name: "TikTok",    url: "https://tiktok.com/@...",   color: "#000000" },
+      { name: "TikTok",    url: "https://tiktok.com/@leedw80",   color: "#000000" },
       { name: "YouTube",   url: "https://youtube.com/@...",  color: "#FF0000" },
       { name: "Instagram", url: "https://instagram.com/...", color: "#E1306C" },
       { name: "Facebook",  url: "https://facebook.com/...",  color: "#1877F2" },
