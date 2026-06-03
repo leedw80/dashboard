@@ -43,6 +43,12 @@ export const categories = [
   },
 ]
 
+export const coupang = {
+  url: "https://influencers.coupang.com/s/leedw80",
+  label: "쿠팡 인플루언서 CCTV 아빠 전용 스토어",
+  disclosure: "쿠팡 파트너스를 통해 수수료를 받습니다.",
+}
+
 export const contact = {
   phone: "01085853508",
   kakao: "https://pf.kakao.com/_fHbxoxj",
