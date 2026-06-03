@@ -2,7 +2,7 @@ export default function ProfileHeader({ name, bio, photo }) {
   return (
     <div className="flex flex-col items-center gap-3 py-8">
       <img
-        src={photo}
+        src={photo.startsWith('http') ? photo : `${import.meta.env.BASE_URL}${photo.replace(/^\//, '')}`}
         alt={name}
         className="w-24 h-24 rounded-full object-cover border-4 border-white shadow-md"
       />
