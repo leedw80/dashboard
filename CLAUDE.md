@@ -12,6 +12,17 @@ Vite + React 19 + Tailwind CSS v4 + Recharts + lucide-react
 `npm test` equivalent: `npx vitest run`
 `npm run deploy` - build + deploy to GitHub Pages
 
+## Workflow (코드 수정 후)
+```bash
+git add . && git commit -m "feat: ..."  # 소스코드 저장
+npm run deploy                           # GitHub Pages 반영
+```
+
+## Key Files
+`src/data/mockData.js` - 카드/차트 데이터 수정은 여기
+`src/components/StatCard.jsx` - 아이콘 추가 시 iconMap에 수동 등록 필요
+`src/components/` - Header, StatCard, LineChartWidget, PieChartWidget
+
 ## Testing
 Vitest + @testing-library/react. Test files colocated as `*.test.jsx`
 Recharts must be mocked in tests: `vi.mock('recharts', () => ({ ... }))`
