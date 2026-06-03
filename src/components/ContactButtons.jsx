@@ -8,7 +8,7 @@ export default function ContactButtons({ phone, kakao, email }) {
         className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-4 rounded-lg transition-colors text-lg"
       >
         <Phone size={20} />
-        전화 문의 (우선)
+        전화 문의
       </a>
       <div className="flex gap-3">
         <a
