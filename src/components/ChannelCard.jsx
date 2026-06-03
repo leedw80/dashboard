@@ -4,7 +4,7 @@ export default function ChannelCard({ name, url, color }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center justify-center px-4 py-3 rounded-lg text-white font-medium text-sm hover:opacity-80 transition-opacity"
+      className="flex items-center justify-center px-3 py-3.5 rounded-xl text-white font-semibold text-sm text-center leading-tight active:scale-95 transition-all shadow-sm"
       style={{ backgroundColor: color }}
     >
       {name}
