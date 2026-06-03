@@ -21,9 +21,14 @@ npm run deploy                           # GitHub Pages 반영
 ```
 
 ## Key Files
-`src/data/mockData.js` - 카드/차트 데이터 수정은 여기
-`src/components/StatCard.jsx` - 아이콘 추가 시 iconMap에 수동 등록 필요
-`src/components/` - Header, StatCard, LineChartWidget, PieChartWidget
+`src/data/channelData.js` - 프로필·채널·연락처·쿠팡 데이터 수정
+`src/components/ContactButtons.jsx` - props: phone, kakao, email (3개 모두 필수)
+`src/components/ProfileHeader.jsx` - public 이미지 BASE_URL 처리 포함
+`src/App.jsx` - 쿠팡 배너 등 특수 요소는 여기서 직접 렌더링
+
+## Gotchas
+Public 폴더 이미지는 `import.meta.env.BASE_URL` 없이 `/파일명`으로 참조하면 GitHub Pages에서 깨짐 (ProfileHeader에서 처리 중)
+이미지 압축: PowerShell System.Drawing으로 PNG→JPEG 변환 가능 (sharp 불필요)
 
 ## Testing
 Vitest + @testing-library/react. Test files colocated as `*.test.jsx`
