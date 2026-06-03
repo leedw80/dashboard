@@ -23,10 +23,11 @@ export default function ContactButtons({ phone, kakao, email }) {
         href={kakao}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex flex-col px-5 py-4 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
+        className="flex flex-col px-5 py-4 bg-orange-50 border-2 border-orange-300 rounded-lg hover:bg-orange-100 transition-colors"
       >
-        <span className="font-semibold text-gray-800">📩 콘텐츠 제작 문의</span>
-        <span className="text-sm text-gray-500 mt-1">홍보 영상·카드뉴스, AI로 빠르게 만들어드려요</span>
+        <span className="font-semibold text-orange-700">🆕 프로필 링크 페이지 — 새로 만들었어요</span>
+        <span className="text-sm text-gray-500 mt-1">지금 보고 계신 이 페이지예요 · AI로 10분 만에 만들었습니다</span>
+        <span className="mt-3 text-sm font-medium text-orange-600">사장님 것도 만들어드려요 →</span>
       </a>
       <a
         href={kakao}
