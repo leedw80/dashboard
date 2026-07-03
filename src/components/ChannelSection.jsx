@@ -1,10 +1,10 @@
 import ChannelCard from './ChannelCard'
 
-export default function ChannelSection({ title, icon, channels }) {
+export default function ChannelSection({ title, channels }) {
   return (
-    <section className="space-y-3">
-      <h2 className="text-base font-bold text-gray-600 tracking-wide uppercase">{icon} {title}</h2>
-      <div className="grid grid-cols-2 gap-2.5">
+    <section>
+      <h2 className="text-[11px] font-bold text-slate-400 tracking-wide uppercase mb-2 pl-1">{title}</h2>
+      <div className="grid grid-cols-2 gap-2">
         {channels.map((channel) => (
           <ChannelCard key={channel.name} {...channel} />
         ))}

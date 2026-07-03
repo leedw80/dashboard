@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@keyframes cta-pulse {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.06); }
+}
+.animate-cta-pulse {
+  animation: cta-pulse 2.8s ease-in-out infinite;
+}

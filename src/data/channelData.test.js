@@ -10,21 +10,20 @@ test('categories에 4개 카테고리가 있다', () => {
   expect(categories).toHaveLength(4)
 })
 
-test('각 카테고리는 title, icon, channels를 가진다', () => {
+test('각 카테고리는 title, channels를 가진다', () => {
   categories.forEach(cat => {
     expect(cat).toHaveProperty('title')
-    expect(cat).toHaveProperty('icon')
     expect(cat).toHaveProperty('channels')
     expect(Array.isArray(cat.channels)).toBe(true)
   })
 })
 
-test('각 채널은 name, url, color를 가진다', () => {
+test('각 채널은 name, url, color 또는 gradient를 가진다', () => {
   categories.forEach(cat => {
     cat.channels.forEach(ch => {
       expect(ch).toHaveProperty('name')
       expect(ch).toHaveProperty('url')
-      expect(ch).toHaveProperty('color')
+      expect(ch.color || ch.gradient).toBeTruthy()
     })
   })
 })
