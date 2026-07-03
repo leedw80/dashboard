@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Claude Design 원본 export (대용량)
+design/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
