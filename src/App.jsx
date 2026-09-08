@@ -1,18 +1,15 @@
 import ProfileHeader from './components/ProfileHeader'
 import ChannelAccordion from './components/ChannelAccordion'
 import ServiceGuide from './components/ServiceGuide'
-import { PhoneEmailButtons, ServiceCards } from './components/ContactButtons'
 import { profile, services, categories, contact, coupang } from './data/channelData'
 
 export default function App() {
   return (
     <div className="min-h-screen bg-slate-100">
       <div className="max-w-md mx-auto px-4 pb-12 space-y-4">
-        <ProfileHeader {...profile} />
-        <ServiceCards kakao={contact.kakao} />
-        <PhoneEmailButtons phone={contact.phone} email={contact.email} />
+        <ProfileHeader name={profile.name} photo={profile.photo} />
         <ServiceGuide {...services} />
-        <ChannelAccordion categories={categories} />
+        <ChannelAccordion categories={categories} contact={contact} />
         <a
           href={coupang.url}
           target="_blank"

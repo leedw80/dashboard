@@ -8,7 +8,9 @@ export default function ProfileHeader({ name, bio, photo }) {
       />
       <div className="flex flex-col items-center gap-2 px-2">
         <h1 className="text-2xl font-bold text-gray-900 tracking-tight">{name}</h1>
-        <p className="text-sm text-gray-500 text-center leading-relaxed max-w-xs break-keep">{bio}</p>
+        {bio && (
+          <p className="text-sm text-gray-500 text-center leading-relaxed max-w-xs break-keep">{bio}</p>
+        )}
       </div>
     </div>
   )

@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import ChannelSection from './ChannelSection'
+import { PhoneEmailButtons } from './ContactButtons'
 
-export default function ChannelAccordion({ categories }) {
-  const [open, setOpen] = useState(false)
+export default function ChannelAccordion({ categories, contact }) {
+  const [open, setOpen] = useState(true)
 
   return (
     <div>
@@ -16,6 +17,9 @@ export default function ChannelAccordion({ categories }) {
       </button>
       {open && (
         <div className="flex flex-col gap-5 pt-5">
+          {contact && (
+            <PhoneEmailButtons phone={contact.phone} email={contact.email} />
+          )}
           {categories.map((cat) => (
             <ChannelSection key={cat.title} {...cat} />
           ))}
