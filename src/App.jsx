@@ -1,7 +1,8 @@
 import ProfileHeader from './components/ProfileHeader'
 import ChannelAccordion from './components/ChannelAccordion'
+import ServiceGuide from './components/ServiceGuide'
 import { PhoneEmailButtons, ServiceCards } from './components/ContactButtons'
-import { profile, categories, contact, coupang } from './data/channelData'
+import { profile, services, categories, contact, coupang } from './data/channelData'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
         <ProfileHeader {...profile} />
         <ServiceCards kakao={contact.kakao} />
         <PhoneEmailButtons phone={contact.phone} email={contact.email} />
+        <ServiceGuide {...services} />
         <ChannelAccordion categories={categories} />
         <a
           href={coupang.url}
