@@ -59,7 +59,7 @@ export const categories = [
 export const coupang = {
   url: "https://influencers.coupang.com/s/leedw80",
   label: "쿠팡 인플루언서 스토어",
-  disclosure: "쿠팡 파트너스를 통해 수수료를 받습니다.",
+  disclosure: "이 페이지의 쿠팡 인플루언서 스토어 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따라 일정액의 수수료를 제공받습니다.",
 }
 
 export const contact = {

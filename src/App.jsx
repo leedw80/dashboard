@@ -18,8 +18,11 @@ export default function App() {
           style={{ background: 'linear-gradient(135deg, #c2410c, #ea580c)' }}
         >
           <span className="text-[15px] font-bold text-white">🛒 {coupang.label}</span>
-          <span className="text-xs text-white/80">{coupang.disclosure}</span>
+          <span className="text-xs text-white/80">쿠팡 파트너스 제휴 링크</span>
         </a>
+        <p className="text-[11px] text-slate-400 text-center leading-relaxed pt-1">
+          {coupang.disclosure}
+        </p>
       </div>
     </div>
   )
