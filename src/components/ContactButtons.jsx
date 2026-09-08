@@ -35,13 +35,12 @@ export function ServiceCards({ kakao }) {
           🔧 CCTV·방송·통신 시공 문의
         </span>
         <span className="text-sm text-white/85 leading-relaxed">
-          신규 설치: 무료 방문 견적
-          <br />
-          AS·점검: 비용 안내 후 방문
+          신규 설치는 방문해서 무료로 견적 내드려요. 고장은 방문 비용을 먼저 알려드리고,
+          괜찮으시면 방문해서 원인을 봐요 — 고쳐서 되면 고치고, 안 되면 교체로 안내해드려요.
         </span>
         <div className="bg-black/20 rounded-xl px-4 py-3 mt-3.5">
           <span className="text-[15px] font-extrabold text-white leading-snug">
-            상황 말씀해주시면 안내해드려요
+            상황만 말씀해주시면 어떻게 진행되는지 안내해드려요
           </span>
         </div>
       </a>
