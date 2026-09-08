@@ -13,6 +13,7 @@ export const categories = [
       { name: "Instagram",  url: "https://www.instagram.com/lee_dw80",       gradient: "linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)", icon: "camera" },
       { name: "Facebook",   url: "https://www.facebook.com/share/14erNsLh4Py/", color: "#1877F2", icon: "f" },
       { name: "Threads",    url: "https://www.threads.com/@lee_dw80",        color: "#000000", icon: "at-sign" },
+      { name: "X",          url: "https://x.com/leedw80",                    color: "#000000", icon: "x" },
       { name: "네이버 클립", url: "https://clip.naver.com/@lee_dw80",        color: "#03C75A", icon: "n" },
     ],
   },

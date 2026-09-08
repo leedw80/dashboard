@@ -12,7 +12,7 @@ const ICONS = {
 }
 
 function ChannelIcon({ icon }) {
-  if (icon === 'n' || icon === 'f') {
+  if (icon === 'n' || icon === 'f' || icon === 'x') {
     return <span className="text-[15px] font-extrabold leading-none">{icon.toUpperCase()}</span>
   }
   const Icon = ICONS[icon]
