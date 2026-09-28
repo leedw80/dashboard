@@ -1,4 +1,4 @@
-import { Music2, Play, Camera, AtSign, Notebook, Carrot, MapPin, GitBranch } from 'lucide-react'
+import { Music2, Play, Camera, AtSign, Notebook, Carrot, MapPin, GitBranch, Search } from 'lucide-react'
 
 const ICONS = {
   music2: Music2,
@@ -9,6 +9,7 @@ const ICONS = {
   carrot: Carrot,
   'map-pin': MapPin,
   github: GitBranch,
+  search: Search,
 }
 
 function ChannelIcon({ icon }) {
