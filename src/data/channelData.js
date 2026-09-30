@@ -55,7 +55,7 @@ export const categories = [
       { name: "당근마켓", url: "https://www.daangn.com/kr/local-profile/4ims9dv1hkfs/?referrer=share", color: "#FF6F0F", icon: "carrot" },
       { name: "숨고", url: "https://www.soomgo.com/profile/users/19144233", color: "#693BF2", icon: "search" },
       { name: "네이버지도", url: "https://naver.me/GUDeLP46", color: "#03C75A", icon: "map-pin" },
-      { name: "카카오맵", url: "https://place.map.kakao.com/10035258?fromAppLink=true",  color: "#FFCD00", textColor: "#1a1a1a", icon: "map-pin" },
+      { name: "카카오맵", url: "https://place.map.kakao.com/1660720452",  color: "#FFCD00", textColor: "#1a1a1a", icon: "map-pin" },
     ],
   },
   {
@@ -74,6 +74,6 @@ export const coupang = {
 
 export const contact = {
   phone: "01085853508",
-  kakao: "https://pf.kakao.com/_fHbxoxj",
+  kakao: "https://pf.kakao.com/_nDjxiX/chat",
   email: "leedw80@naver.com",
 }

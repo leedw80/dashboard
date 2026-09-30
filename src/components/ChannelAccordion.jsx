@@ -18,7 +18,7 @@ export default function ChannelAccordion({ categories, contact }) {
       {open && (
         <div className="flex flex-col gap-5 pt-5">
           {contact && (
-            <PhoneEmailButtons phone={contact.phone} email={contact.email} />
+            <PhoneEmailButtons phone={contact.phone} kakao={contact.kakao} email={contact.email} />
           )}
           {categories.map((cat) => (
             <ChannelSection key={cat.title} {...cat} />
