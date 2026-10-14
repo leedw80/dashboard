@@ -73,6 +73,5 @@ export const coupang = {
 
 export const contact = {
   phone: "01085853508",
-  kakao: "https://pf.kakao.com/_nDjxiX/chat",
   email: "leedw80@naver.com",
 }

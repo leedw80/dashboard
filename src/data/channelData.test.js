@@ -28,7 +28,8 @@ test('각 채널은 name, url, color 또는 gradient를 가진다', () => {
   })
 })
 
-test('contact에 kakao와 email이 있다', () => {
-  expect(contact).toHaveProperty('kakao')
+test('contact에 phone과 email이 있고 kakao는 없다', () => {
+  expect(contact).toHaveProperty('phone')
   expect(contact).toHaveProperty('email')
+  expect(contact).not.toHaveProperty('kakao')
 })
