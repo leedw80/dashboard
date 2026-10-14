@@ -53,7 +53,6 @@ export const categories = [
     title: "지역·생활",
     channels: [
       { name: "당근마켓", url: "https://www.daangn.com/kr/local-profile/4ims9dv1hkfs/?referrer=share", color: "#FF6F0F", icon: "carrot" },
-      { name: "숨고", url: "https://www.soomgo.com/profile/users/19144233", color: "#693BF2", icon: "search" },
       { name: "네이버지도", url: "https://map.naver.com/p/search/%EA%B2%BD%EB%B6%81%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EB%B4%89%EA%B3%A1%EB%A1%9C23%EA%B8%B8%2028", color: "#03C75A", icon: "map-pin" },
       { name: "카카오맵", url: "https://map.kakao.com/link/map/%EB%B4%89%EA%B3%A1%EB%A1%9C23%EA%B8%B8%2028,36.1548577,128.3077074",  color: "#FFCD00", textColor: "#1a1a1a", icon: "map-pin" },
     ],
