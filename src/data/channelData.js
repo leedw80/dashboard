@@ -1,7 +1,7 @@
 export const profile = {
   name: "CCTV 아빠",
   bio: "CCTV와 인터폰, 전관방송, 빔프로젝터, 와이파이까지 한 사람이 맡는 현직 기사예요.",
-  photo: "/profile-202610.jpg",
+  photo: "/profile-20261023.jpg",
 }
 
 export const services = {
