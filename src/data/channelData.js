@@ -1,32 +1,32 @@
 export const profile = {
   name: "CCTV 아빠",
-  bio: "CCTV·전관방송·통신·사무기기를 다루는 현직 기사예요. 새로 설치하는 일부터 고장 점검·수리까지 한 사람이 맡아요.",
+  bio: "CCTV와 인터폰, 전관방송과 음향, 빔프로젝터, 와이파이와 랜공사까지 한 사람이 맡는 현직 기사예요. 새로 설치하는 일부터 고장 점검과 수리까지 해요.",
   photo: "/profile.jpg",
 }
 
 export const services = {
   intro:
-    "CCTV·전관방송·통신·사무기기를 다루는 현직 기사예요. 새로 설치하는 일부터 고장 점검·수리까지 한 사람이 맡아요.",
+    "CCTV와 인터폰, 전관방송과 음향, 빔프로젝터, 와이파이와 랜공사까지 한 사람이 맡는 현직 기사예요. 새로 설치하는 일부터 고장 점검과 수리까지 해요.",
   areas: [
-    { icon: "cctv", title: "CCTV 설치·수리", desc: "매장·사무실·공장·학원 CCTV를 새로 달거나 교체해요. 화면이 안 나오거나 녹화가 안 되거나 비밀번호를 잊어버린 고장도 방문해서 고쳐요." },
-    { icon: "speaker", title: "전관방송·음향·빔프로젝터", desc: "학교·건물 전관방송, 매장 스피커·앰프, 회의실·교육장 빔프로젝터·스크린을 설치해요. 소리가 끊기거나 잡음이 나면 점검하고, 비상방송 설비 정기 점검도 맡아요." },
+    { icon: "cctv", title: "CCTV와 인터폰", desc: "매장, 사무실, 공장, 학원, 빌라 CCTV를 새로 달거나 교체해요. 화면이 안 나오거나 녹화가 안 되거나 비밀번호를 잊어버린 고장도 방문해서 고쳐요. 오래된 인터폰 교체도 해요." },
+    { icon: "speaker", title: "전관방송 음향 빔프로젝터", desc: "학교와 건물 전관방송, 매장 스피커와 앰프, 회의실과 교육장 빔프로젝터와 스크린을 설치해요. 소리가 끊기거나 잡음이 나면 점검하고, 비상방송 설비 정기 점검도 맡아요." },
   ],
   extraAreas: [
-    { icon: "network", title: "네트워크·통신", desc: "인터넷 배선, 공유기·네트워크 구성, 건물 구내통신 공사" },
-    { icon: "pc", title: "컴퓨터·사무기기", desc: "컴퓨터 설치·점검, 프린터 연결, 사무기기 고장 수리" },
+    { icon: "network", title: "와이파이와 랜공사", desc: "랜선 공사, 와이파이와 공유기 설치, 건물 인터넷 배선" },
+    { icon: "pc", title: "컴퓨터와 사무기기", desc: "컴퓨터 설치와 점검, 프린터 연결, 사무기기 고장 수리" },
   ],
   modes: [
-    { title: "구매 + 설치", who: "장비도 설치도 필요하신 분", how: "방문 견적 무료" },
+    { title: "구매와 설치", who: "장비도 설치도 필요하신 분", how: "방문 견적 무료" },
     { title: "구매만", who: "설치는 직접 하시거나 다른 곳에 맡기실 분", how: "필요한 사양 확인 후 안내, 기본 사용법 전화 안내" },
-    { title: "설치만", who: "온라인·마트에서 직접 사신 CCTV·홈캠·빔프로젝터", how: "설치비 먼저 안내, 시공 하자 1회 무료 재방문" },
-    { title: "AS·유지보수", who: "쓰던 장비가 고장 나신 분", how: "방문 비용 먼저 안내, 동의하시면 방문" },
+    { title: "설치만", who: "온라인이나 마트에서 직접 사신 CCTV, 홈캠, 빔프로젝터, 인터폰", how: "설치비 먼저 안내, 시공 하자 1회 무료 재방문" },
+    { title: "AS와 유지보수", who: "쓰던 장비가 고장 나신 분", how: "방문 비용 먼저 안내, 동의하시면 방문" },
   ],
   principles: [
     "비용은 작업 전에 먼저 알려드려요. 현장에서 자재가 더 필요하면 그때도 먼저 말씀드려요.",
     "고장은 방문해서 원인부터 확인해요. 고칠 수 있으면 고치고, 부품이 다 됐을 때만 교체를 권해드려요.",
     "작업이 끝나면 혼자서도 기본 확인할 수 있게 사용법을 알려드려요.",
   ],
-  target: "매장·공장·학원·사무실·학교를 운영하시면서 CCTV·방송·영상 장비를 한 곳에서 해결하고 싶은 분께 맞아요.",
+  target: "매장, 공장, 학원, 사무실, 학교를 운영하시면서 CCTV와 방송, 영상, 인터넷 장비를 한 곳에서 해결하고 싶은 분께 맞아요.",
 }
 
 export const categories = [
@@ -43,18 +43,18 @@ export const categories = [
     ],
   },
   {
-    title: "블로그·커뮤니티",
+    title: "블로그와 커뮤니티",
     channels: [
       { name: "네이버 블로그", url: "https://blog.naver.com/leedw80", color: "#03C75A", icon: "n" },
       { name: "티스토리",     url: "https://dw80.tistory.com/",   color: "#FF6600", icon: "notebook" },
     ],
   },
   {
-    title: "지역·생활",
+    title: "지역과 생활",
     channels: [
       { name: "당근마켓", url: "https://www.daangn.com/kr/local-profile/4ims9dv1hkfs/?referrer=share", color: "#FF6F0F", icon: "carrot" },
-      { name: "네이버지도", url: "https://map.naver.com/p/search/%EA%B2%BD%EB%B6%81%20%EA%B5%AC%EB%AF%B8%EC%8B%9C%20%EB%B4%89%EA%B3%A1%EB%A1%9C23%EA%B8%B8%2028", color: "#03C75A", icon: "map-pin" },
-      { name: "카카오맵", url: "https://map.kakao.com/link/map/%EB%B4%89%EA%B3%A1%EB%A1%9C23%EA%B8%B8%2028,36.1548577,128.3077074",  color: "#FFCD00", textColor: "#1a1a1a", icon: "map-pin" },
+      { name: "네이버지도", url: "https://map.naver.com/p/entry/place/2029196279", color: "#03C75A", icon: "map-pin" },
+      { name: "카카오맵", url: "https://place.map.kakao.com/1660720452",  color: "#FFCD00", textColor: "#1a1a1a", icon: "map-pin" },
     ],
   },
   {

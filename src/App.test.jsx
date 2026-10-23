@@ -20,8 +20,8 @@ test('ProfileHeader가 이름과 함께 렌더링된다', () => {
 test('4개 카테고리 섹션이 모두 렌더링된다', () => {
   render(<App />)
   expect(screen.getByText('SNS')).toBeInTheDocument()
-  expect(screen.getByText('블로그·커뮤니티')).toBeInTheDocument()
-  expect(screen.getByText('지역·생활')).toBeInTheDocument()
+  expect(screen.getByText('블로그와 커뮤니티')).toBeInTheDocument()
+  expect(screen.getByText('지역과 생활')).toBeInTheDocument()
   expect(screen.getByText('개발')).toBeInTheDocument()
 })
 

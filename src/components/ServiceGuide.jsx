@@ -34,8 +34,9 @@ export default function ServiceGuide({ intro, areas, extraAreas, modes, principl
           return (
             <div key={title} className="flex gap-2 text-[13px] leading-relaxed break-keep">
               {Icon && <Icon size={15} className="mt-0.5 shrink-0 text-slate-400" />}
-              <span className="text-gray-500">
-                <span className="font-bold text-gray-700">{title}</span> · {desc}
+              <span className="flex flex-col text-gray-500">
+                <span className="font-bold text-gray-700">{title}</span>
+                <span>{desc}</span>
               </span>
             </div>
           )
